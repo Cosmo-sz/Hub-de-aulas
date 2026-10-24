@@ -13,7 +13,6 @@
   border-radius: 10px;
 }
 
-
 .flex-item 
 {
   flex: 1 1 100px;
@@ -26,3 +25,19 @@
   font-weight: bold;
   border-radius: 8px;
 }
+
+/* ====== Explicações ====== */
+.explanation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.explanation div {
+  flex: 1 1 280px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+}
+

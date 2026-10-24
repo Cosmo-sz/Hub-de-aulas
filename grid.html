@@ -31,6 +31,27 @@
         <li>Posicionar elementos em áreas específicas do layout.</li>
       </ul>
     </section>
+    
+    <section>
+      <h2>Exemplo Visual do Grid</h2>
+      <p>
+        No exemplo abaixo, os elementos estão organizados em três colunas
+        de mesmo tamanho.
+      </p>
+
+      <div class="grid-demo">
+        <div class="grid-item">Caixa 1</div>
+        <div class="grid-item">Caixa 2</div>
+        <div class="grid-item">Caixa 3</div>
+      </div>
+
+      <pre><code>.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}</code></pre>
+    </section>
+
   </main>
 
   <footer>

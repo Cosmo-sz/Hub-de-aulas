@@ -87,6 +87,27 @@
         </div>
       </div>
     </section>
+    
+    <section>
+      <h2>Exemplo Prático</h2>
+      <p>
+        O Grid permite criar colunas com proporções diferentes.
+        No exemplo abaixo, a primeira coluna ocupa o dobro do espaço
+        da segunda:
+      </p>
+
+      <pre><code>.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 15px;
+}</code></pre>
+
+      <p>
+        A propriedade <code>grid-template-columns: 2fr 1fr;</code>
+        divide o espaço disponível em três partes: duas para a primeira
+        coluna e uma para a segunda.
+      </p>
+    </section>
 
   </main>
 
